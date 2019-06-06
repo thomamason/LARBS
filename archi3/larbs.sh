@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+## Thomamason's edit of....
+#
 # Luke's Auto Rice Boostrapping Script (LARBS)
 # by Luke Smith <luke@lukesmith.xyz>
 # License: GNU GPLv3
@@ -15,8 +18,8 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 esac done
 
 # DEFAULTS:
-[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git" && repobranch="archi3"
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/archi3/progs.csv"
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/thomamason/voidrice.git" && repobranch="archi3"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/thomamason/LARBS/master/archi3/progs.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
 
@@ -25,7 +28,7 @@ esac done
 error() { clear; printf "ERROR:\\n%s\\n" "$1"; exit;}
 
 welcomemsg() { \
-	dialog --title "Welcome!" --msgbox "Welcome to Luke's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured i3wm Arch Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
+	dialog --title "Welcome!" --msgbox "Welcome to Thom's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured i3wm Arch Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
 	}
 
 getuserandpass() { \
@@ -202,9 +205,6 @@ installationloop
 # Install the dotfiles in the user's home directory
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -f "/home/$name/README.md" "/home/$name/LICENSE"
-
-# Install the LARBS Firefox profile in ~/.mozilla/firefox/
-putgitrepo "https://github.com/LukeSmithxyz/mozillarbs.git" "/home/$name/.mozilla/firefox"
 
 # Pulseaudio, if/when initially installed, often needs a restart to work immediately.
 [ -f /usr/bin/pulseaudio ] && resetpulse
