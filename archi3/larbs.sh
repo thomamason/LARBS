@@ -18,7 +18,7 @@ while getopts ":a:r:b:p:h" o; do case "${o}" in
 esac done
 
 # DEFAULTS:
-[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/thomamason/archfiles.git" && repobranch="archi3"
+[ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/thomamason/archfiles.git" && repobranch="master"
 [ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/thomamason/LARBS/master/archi3/progs.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
@@ -28,7 +28,7 @@ esac done
 error() { clear; printf "ERROR:\\n%s\\n" "$1"; exit;}
 
 welcomemsg() { \
-	dialog --title "Welcome!" --msgbox "Welcome to Thom's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install a fully-featured i3wm Arch Linux desktop, which I use as my main machine.\\n\\n-Luke" 10 60
+	dialog --title "Welcome!" --msgbox "Welcome to Thomamason's Rip of Luke's Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically choke and die all over your fresh arch install.\\n\\n-Thomamason" 10 60
 	}
 
 getuserandpass() { \
