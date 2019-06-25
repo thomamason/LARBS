@@ -61,3 +61,5 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,neofetch,"shows system info."
 A,pamac-aur,"gtk frontend for pamac manager."
 ,nerd-fonts-terminus, "nerd fonts library."
+,pcmanfm,"file browser"
+
