@@ -18,6 +18,7 @@
 ,xwallpaper,"sets the wallpaper."
 A,gtk-theme-arc-gruvbox-git,"gives the dark GTK theme used in LARBS."
 ,i3lock,"is the screen lock."
+,vifm,"fucknnn vim."
 ,mpd,"is a lightweight music daemon."
 ,mpc,"is a terminal interface for mpd."
 ,mpv,"is the patrician's choice video player."
@@ -58,3 +59,5 @@ G,https://github.com/lukesmithxyz/st.git,"is my custom build of suckless's termi
 ,docx2txt,"enables .docx file previews in vifm."
 ,odt2txt,"enables .odt file previews in vifm."
 ,neofetch,"shows system info."
+A,pamac-aur,"gtk frontend for pamac manager."
+,nerd-fonts-terminus, "nerd fonts library."
