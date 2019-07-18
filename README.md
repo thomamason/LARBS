@@ -1,3 +1,4 @@
+# Thomamason's edit of....
 # Luke's Auto-Rice Bootstraping Scripts (LARBS)
 
 
@@ -6,7 +7,7 @@
 On an Arch based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://raw.githubusercontent.com/thomamason/LARBS/master/archi3/larbs.sh
 sh larbs.sh
 ```
 
@@ -35,8 +36,7 @@ Here are some of the things LARBS sets up:
   times, as well as commands such as `getkeys` which print the default bindings
   of terminal applications. You can even stream instructional videos on topics
   with `Super+Shift+E`.
-- Installs [my dotfiles](https://github.com/lukesmithxyz/voidrice) giving as
-  popularized on [my YouTube channel](https://youtube.com/c/Lukesmithxyz).
+- Installs [thomamason's dotfiles].
 - Sets up system requirements such as users, permissions, networking, audio and
   an AUR manager.
 - All done behind a `dialog` based user interface.
@@ -57,7 +57,6 @@ Here are some of the things LARBS sets up:
   possible:
   	- Weather forecasts using `wttr.in`, with highs, lows and rain chance.
 	- Current song information from `mpd`
-	- Unread mail from Luke's `mutt-wizard`
 	- Possible pacman updates
 	- Status of torrents in transmission-daemon
 	- Expected date, time, battery, internet and volume modules
