@@ -19,7 +19,7 @@ esac done
 
 # DEFAULTS:
 [ -z "$dotfilesrepo" ] && dotfilesrepo="https://github.com/thomamason/dedustfiles.git"
-[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/thomamason/LARBS/master/archi3/progs.csv"
+[ -z "$progsfile" ] && progsfile="https://raw.githubusercontent.com/thomamason/LARBS/arch/archi3/progs.csv"
 [ -z "$aurhelper" ] && aurhelper="yay"
 [ -z "$repobranch" ] && repobranch="master"
 
