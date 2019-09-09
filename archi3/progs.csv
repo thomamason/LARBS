@@ -1,7 +1,5 @@
 #TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
 ,i3-gaps,"is the main graphical user interface and window manager."
-,i3blocks,"barrrr stuf"
-,i3bar,"again, barrrr stuf"
 ,xorg-server,"is the graphical server."
 ,xorg-xwininfo,"allows querying information about windows."
 ,xorg-xinit,"starts the graphical server."
@@ -67,3 +65,7 @@ A,pcmanfm,"file browser"
 ,nicotine+,"soulseek!"
 A,powerline-shell, "customised status bar for shell and other stuff"
 A,packup,"package backup script"
+,neovim,"neovimmmm!"
+A,nerd-fonts-terminus,"my font of choice"
+,sox,"the swiss army knife of sound processing tools"
+
