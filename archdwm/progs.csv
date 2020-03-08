@@ -1,4 +1,5 @@
 #TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
+,networkmanager,"does the web ting. But if you got this far without then you're a better user than I"
 ,xorg-server,"is the graphical server."
 ,xorg-xwininfo,"allows querying information about windows."
 ,xorg-xinit,"starts the graphical server."
@@ -61,3 +62,7 @@ G,https://github.com/joestandring/dwm-bar.git,"joe's modules for a dwmbar. scrip
 ,transmission-cli,"torrents"
 ,transmission-remote-cli-git,"torrents now with minimal effort"
 ,libxrandr,"screen detect"
+A,siji-git,"emojis"
+,network-manager-applet,"system tray network manager"
+,pamixer,"sorts your audio right out"
+,xorg-xsetroot,"this gives dwmbar life!"
